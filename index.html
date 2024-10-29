@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Réservez des séjours écologiques au Maroc avec notre application, similaire à Booking, et soutenez le tourisme durable.">
-    <title>Réservation de Séjours Écologiques au Maroc</title>
+    <meta name="description" content="Découvrez notre portail dédié aux séjours écologiques au Maroc. Inscrivez-vous pour en savoir plus !">
+    <title>Portail Écologique Maroc</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
-            background-image: url('./background.png'); /* Ensure this path is correct */
+            background-image: url('main/background.jpg'); /* Assurez-vous que le chemin est correct */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
         }
         header {
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.7);
             color: white;
             padding: 20px;
             text-align: center;
         }
         header h1 {
             margin: 0;
+            font-size: 36px;
         }
         .container {
             width: 80%;
@@ -31,17 +32,11 @@
             padding: 20px 0;
         }
         .hero {
-            background-color: rgba(0, 0, 0, 0.5);
-            padding: 100px 0;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 50px 20px;
             text-align: center;
-            color: white;
-        }
-        .hero h2 {
-            font-size: 48px;
-            margin: 0;
-        }
-        .hero p {
-            font-size: 24px;
+            border-radius: 10px;
+            margin: 20px 0;
         }
         .cta {
             background-color: #FF6F61;
@@ -53,52 +48,53 @@
         }
         section {
             padding: 40px 0;
-            background-color: rgba(255, 255, 255, 0.8);
-        }
-        h3 {
-            text-align: center;
-        }
-        .features, .how-it-works {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .feature, .step {
-            width: 30%;
-            margin: 20px;
-        }
-        .feature img, .step img {
-            width: 100%;
-            border-radius: 10px;
         }
         footer {
             background-color: #f4f4f4;
             padding: 20px;
             text-align: center;
         }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 400px;
+        }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Réservation de Séjours Écologiques au Maroc</h1>
-    <p>Explorez les meilleurs écolodges et séjours écoresponsables au Maroc</p>
+    <h1>Bienvenue sur notre Portail Écologique au Maroc</h1>
+    <p>Découvrez des séjours écoresponsables et engagez-vous pour un tourisme durable.</p>
 </header>
 
-<div class="hero">
-    <h2>Voyagez Responsable</h2>
-    <p>Découvrez des destinations écoresponsables et réservez vos séjours en toute simplicité</p>
-    <a href="#cta" class="cta">Réservez maintenant</a>
+<div class="container">
+    <div class="hero">
+        <h2>Inscrivez-vous pour en savoir plus !</h2>
+        <p>Recevez des informations sur nos offres et des conseils pour un voyage responsable.</p>
+        <form>
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <button type="submit" class="cta">S'inscrire</button>
+        </form>
+    </div>
+
+    <section>
+        <h3>Pourquoi choisir notre portail ?</h3>
+        <ul>
+            <li>Séjours certifiés écoresponsables</li>
+            <li>Réservation simplifiée</li>
+            <li>Impact positif sur l'environnement</li>
+        </ul>
+    </section>
 </div>
 
-<section class="container features">
-    <h3>Pourquoi nous choisir ?</h3>
-    <div class="feature">
-        <h4>Séjours certifiés écoresponsables</h4>
-        <img src="https://images.unsplash.com/photo-1525467842415-cc82a7aabc31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBsYW50cyUyMGFuZCUyMGVudmlyb25tZW50fGVufDB8fHx8MTY4OTY1NjY2NA&ixlib=rb-4.0.3&q=80&w=1080" alt="Paysage de l'Atlas marocain">
-        <p>Tous nos établissements respectent des critères écologiques stricts et sont certifiés par des labels reconnus.</p>
-    </div>
-    <div class="feature">
-        <h4>Réservation simplifiée</h4>
-        <img src="https://images.unsplash.com/photo-1597262975002-c5
+<footer>
+    <p>© 2024 Portail Écologique au Maroc</p>
+    <p><a href="
